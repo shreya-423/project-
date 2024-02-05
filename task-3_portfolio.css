@@ -1,0 +1,146 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #555;
+}
+header {
+    background-color: #000000;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center; 
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#hero {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px 0;
+    background-image: url("portfolio.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 230px;
+    height: 300px;
+}
+h1 {
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 2.8em; 
+}
+
+p {
+    color: #ffff;
+    font-size: 2.8em; 
+}
+
+.action-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#about {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0; 
+    background-image: url("portfolio.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #ffffff;
+    margin-bottom:10px;
+    text-align: left;
+    font-size: 2.5em; 
+}
+
+p {
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 1.5em; 
+}
+#contact {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0; 
+    background-color: #ffffff; 
+    background-image: url("portfolio.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contact-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+    color: #ffff;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #ffff;
+}
+.contact-content a:hover {
+    text-decoration: underline;
+    color: #09a9ff; 
+}
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-links {
+    margin-top: 10px; 
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
